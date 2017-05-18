@@ -1,0 +1,179 @@
+﻿Build started 2017/5/12 11:58:53.
+     1>Project "C:\Users\cby\Desktop\Program_exp4\Program_exp2\Program_exp2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Program_exp6.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt draw.cpp main.cpp stanford_bunny.cpp stdafx.cpp texture.cpp utah.cpp
+         utah.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(62) : see reference to class template instantiation 'stdext::hash_map<const char *,HANDLE,stdext::hash_compare<const char *,string_less>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const char *const ,HANDLE >>>>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(137) : see reference to class template instantiation 'stdext::hash_map<HWND,MWindow_Base *,stdext::hash_compare<_Kty,std::less<_Kty>>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const HWND ,MWindow_Base *>>>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(138) : see reference to class template instantiation 'stdext::hash_map<UINT,void *,stdext::hash_compare<_Kty,std::less<_Kty>>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const UINT,void *>>>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+     1>c:\users\cby\desktop\program_exp4\program_exp2\utah.cpp(141): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>c:\users\cby\desktop\program_exp4\program_exp2\utah.cpp(218): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\cby\desktop\program_exp4\program_exp2\utah.cpp(223): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+         texture.cpp
+     1>c:\users\cby\desktop\program_exp4\program_exp2\texture.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\cby\desktop\program_exp4\program_exp2\texture.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+         stdafx.cpp
+         stanford_bunny.cpp
+         main.cpp
+     1>c:\users\cby\desktop\program_exp4\program_exp2\main.cpp(93): warning C4244: 'initializing' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\cby\desktop\program_exp4\program_exp2\main.cpp(94): warning C4244: 'initializing' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\cby\desktop\program_exp4\program_exp2\main.cpp(218): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\wchar.h(787) : see declaration of '_swprintf'
+     1>c:\users\cby\desktop\program_exp4\program_exp2\main.cpp(237): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\cby\desktop\program_exp4\program_exp2\main.cpp(279): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         draw.cpp
+     1>c:\users\cby\desktop\program_exp4\program_exp2\draw.cpp(71): warning C4244: 'initializing' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\cby\desktop\program_exp4\program_exp2\draw.cpp(72): warning C4244: 'initializing' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\cby\desktop\program_exp4\program_exp2\draw.cpp(74): warning C4244: 'argument' : conversion from 'float' to 'GLsizei', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cby\Desktop\Program_exp4\Debug\Program_exp6.exe" /INCREMENTAL /NOLOGO OPENGL32.lib GLU32.lib ../Debug/MWindows.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cby\Desktop\Program_exp4\Debug\Program_exp6.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cby\Desktop\Program_exp4\Debug\Program_exp6.lib" /MACHINE:X86 Debug\draw.obj
+         Debug\main.obj
+         Debug\stanford_bunny.obj
+         Debug\stdafx.obj
+         Debug\texture.obj
+         Debug\utah.obj
+         Program_exp2.vcxproj -> C:\Users\cby\Desktop\Program_exp4\Debug\Program_exp6.exe
+     1>Done Building Project "C:\Users\cby\Desktop\Program_exp4\Program_exp2\Program_exp2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.68

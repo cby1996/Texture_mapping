@@ -1,0 +1,305 @@
+﻿Build started 2017/5/12 11:58:35.
+     1>Project "C:\Users\cby\Desktop\Program_exp4\MWindows\MWindows.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MWINDOWS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MWindows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MWINDOWS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MWINDOWS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MWindows.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MOpenGL.cpp MWindows.cpp
+         MWindows.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(62) : see reference to class template instantiation 'stdext::hash_map<const char *,HANDLE,stdext::hash_compare<const char *,string_less>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const char *const ,HANDLE >>>>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(137) : see reference to class template instantiation 'stdext::hash_map<HWND,MWindow_Base *,stdext::hash_compare<_Kty,std::less<_Kty>>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const HWND ,MWindow_Base *>>>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(138) : see reference to class template instantiation 'stdext::hash_map<UINT,void *,stdext::hash_compare<_Kty,std::less<_Kty>>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const UINT,void *>>>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+         MOpenGL.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(62) : see reference to class template instantiation 'stdext::hash_map<const char *,HANDLE,stdext::hash_compare<const char *,string_less>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const char *const ,HANDLE >>>>
+                 ]
+                 and
+                 [
+                     _Kty=const char *
+         ,            _Ty=HANDLE
+         ,            _Tr=stdext::hash_compare<const char *,string_less>
+         ,            _Alloc=std::allocator<std::pair<const char *const ,HANDLE >>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(137) : see reference to class template instantiation 'stdext::hash_map<HWND,MWindow_Base *,stdext::hash_compare<_Kty,std::less<_Kty>>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const HWND ,MWindow_Base *>>>>
+                 ]
+                 and
+                 [
+                     _Kty=HWND
+         ,            _Ty=MWindow_Base *
+         ,            _Tr=stdext::hash_compare<HWND ,std::less<HWND >>
+         ,            _Alloc=std::allocator<std::pair<const HWND ,MWindow_Base *>>
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_List' : class 'std::list<std::pair<const _Kty,_Ty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 c:\users\cby\desktop\program_exp4\mwindows\mwindows.h(138) : see reference to class template instantiation 'stdext::hash_map<UINT,void *,stdext::hash_compare<_Kty,std::less<_Kty>>,std::allocator<std::pair<const _Kty,_Ty>>>' being compiled
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\hash_map(86): warning C4251: 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>::_Vec' : class 'std::vector<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const _Kty,_Ty>>>>,std::_Wrap_alloc<std::allocator<_Other>>>' needs to have dll-interface to be used by clients of class 'std::_Hash<stdext::_Hmap_traits<_Kty,_Ty,_Tr,_Alloc,false>>'
+                 with
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Other=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<const UINT,void *>>>>
+                 ]
+                 and
+                 [
+                     _Kty=UINT
+         ,            _Ty=void *
+         ,            _Tr=stdext::hash_compare<UINT,std::less<UINT>>
+         ,            _Alloc=std::allocator<std::pair<const UINT,void *>>
+                 ]
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cby\Desktop\Program_exp4\Debug\MWindows.dll" /INCREMENTAL /NOLOGO OPENGL32.lib GLU32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cby\Desktop\Program_exp4\Debug\MWindows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cby\Desktop\Program_exp4\Debug\MWindows.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\MOpenGL.obj
+         Debug\MWindows.obj
+         Debug\stdafx.obj
+            Creating library C:\Users\cby\Desktop\Program_exp4\Debug\MWindows.lib and object C:\Users\cby\Desktop\Program_exp4\Debug\MWindows.exp
+         MWindows.vcxproj -> C:\Users\cby\Desktop\Program_exp4\Debug\MWindows.dll
+     1>Done Building Project "C:\Users\cby\Desktop\Program_exp4\MWindows\MWindows.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.16
